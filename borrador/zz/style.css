@@ -1,0 +1,30 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.ob {
+  color: red;
+  margin: 0px;
+}
+
+input {
+  background-color: rgb(227, 227, 227);
+  margin-right: 10px;
+}
+
+input:focus {
+  background-color: rgb(22, 0, 101);
+  color: white;
+}
+
+hr {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+
+label {
+  margin-right: 10px;
+}

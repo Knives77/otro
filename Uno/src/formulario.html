@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro</title>
+    <link rel="icon" href="ValHTML/img/raven.jpg" />
+    <link rel="stylesheet" href="css/formulario.css" />
+  </head>
+
+  <body>
+    <div id="cont">
+      <h1>Registro</h1>
+      <hr />
+      <form onsubmit="return funx()" action="php/altas.php">
+        <label for="">Campo obligatorio </label
+        ><label for="" class="ob">*</label><br /><br />
+        <label for="">Nombre(s) : </label>
+        <label for="" class="ob">*</label>
+        <input id="nnn" type="text" value="Vincent" required name="name" />
+        <label for="">Apellidos : </label>
+        <label for="" class="ob">*</label>
+        <input id="ape" type="text" value="Law" required name="ape"/> <br /><br />
+        <label for="">Edad : </label>
+        <select name="" id="sele"></select>
+        <br />
+        <br />
+        <label for="">Genero : </label>
+        <br />
+        <br />
+        <label for="">Hombre</label>
+        <input type="radio" name="b" />
+        <label for="">Mujer</label>
+        <input type="radio" name="b" />
+        <label for="">Mayonesa</label>
+        <input type="radio" name="b" />
+        <br />
+        <br />
+        <label for="">Número telefono fijo</label>
+        <label for="" class="ob">*</label>
+        <input id="telefo" type="number" value="1234567" required name="telefo"/>
+        <label for="">Número telefono</label>
+        <label for="" class="ob">*</label>
+        <input type="number" id="tele" value="1234567891" required name="tele"/>
+        <hr />
+        <h2>Dirección</h2>
+        <label for="">Calle :    </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="calle"/>
+        <label for="">Número INT : </label>
+        <label for="" class="ob">*</label>
+        <input type="number" value="69" required name="numI"/>
+        <label for="">Número EXT : </label>
+        <label for="" class="ob">*</label>
+        <input type="number" value="69" required name="numE"/>
+        <br /><br />
+        <label for="">Colonia : </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="col"/>
+        <label for="">Localidad :     </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="loc"/>
+        <label for=""></label>
+        <label for="">Municipio :    </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="mun"/>
+        <br />
+        <br />
+        <label for="">Estado :  </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="est"/>
+        <label for="">Pais :             </label>
+        <label for="" class="ob">*</label>
+        <input type="text" value="añañin" required name="pais"/>
+        <br />
+        <hr />
+        <label for="">Correo :                 </label>
+        <label for="" class="ob">*</label>
+        <input id="cor" type="email" value="knives@knives.com" required name="email"/>
+        <br /><br />
+        <label for="">Numero de tarjeta : </label>
+        <label for="" class="ob">*</label>
+        <input id="tarje" type="number" value="1234567891234567" required name="tarje"/>
+        <label for="">Contraseña : </label>
+        <label for="" class="ob">*</label>
+        <input
+          id="contraseña"
+          minlength="8"
+          value="12345Aa$"
+          type="password"
+          required
+          name="password"
+        />
+        <hr />
+        <input type="submit" value="Registrar"/>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
