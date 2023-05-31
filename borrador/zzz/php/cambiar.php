@@ -26,7 +26,7 @@
                     */
 
                     //2- Realizar conexión
-                    $conex = new mysqli("localhost", "Knives77", "faye", "z");
+                    $conex = new mysqli("localhost", "root", "", "z");
 
                     //3- Comprobar conexión
                     if ($conex -> connect_error) {

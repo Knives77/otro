@@ -25,8 +25,8 @@
 
                     //1- Declaración de variables
                     $server = "localhost";
-                    $username = "Knives77";
-                    $password = "faye";
+                    $username = "root";
+                    $password = "";
                     $dataBase = "z";
 
                     //2- Realizar conexión

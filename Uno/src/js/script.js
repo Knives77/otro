@@ -5,7 +5,7 @@ var contra = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{8,}$/;
 for (let index = 1; index <= 30; index++) {
     document.getElementById(
         "sele"
-    ).innerHTML += `<option id="${index}">${index} </option>`;
+    ).innerHTML += `<option value="${index}">${index} </option>`;
 }
 
 function funhh() {

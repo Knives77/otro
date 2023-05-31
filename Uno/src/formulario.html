@@ -11,77 +11,92 @@
     <div id="cont">
       <h1>Registro</h1>
       <hr />
-      <form onsubmit="return funx()" action="php/altas.php">
-        <label for="">Campo obligatorio </label
-        ><label for="" class="ob">*</label><br /><br />
-        <label for="">Nombre(s) : </label>
-        <label for="" class="ob">*</label>
+      <form method="POST" onsubmit="return funx()" action="php/altas.php">
+        <label>Campo obligatorio </label><label class="ob">*</label><br /><br />
+        <label>Nombre(s) : </label>
+        <label class="ob">*</label>
         <input id="nnn" type="text" value="Vincent" required name="name" />
-        <label for="">Apellidos : </label>
-        <label for="" class="ob">*</label>
-        <input id="ape" type="text" value="Law" required name="ape"/> <br /><br />
-        <label for="">Edad : </label>
-        <select name="" id="sele"></select>
+        <label>Apellidos : </label>
+        <label class="ob">*</label>
+        <input id="ape" type="text" value="Law" required name="ape" />
+        <br /><br />
+        <label>Edad : </label>
+        <select name="sele" id="sele"></select>
         <br />
         <br />
-        <label for="">Genero : </label>
+        <label>Genero : </label>
         <br />
         <br />
-        <label for="">Hombre</label>
-        <input type="radio" name="b" />
-        <label for="">Mujer</label>
-        <input type="radio" name="b" />
-        <label for="">Mayonesa</label>
-        <input type="radio" name="b" />
+        <label>Hombre</label>
+        <input type="radio" name="b" value="Hombre" required />
+        <label>Mujer</label>
+        <input type="radio" name="b" value="Mujer" required />
+        <label>Mayonesa</label>
+        <input type="radio" name="b" value="Mayonesa" requ />
         <br />
         <br />
-        <label for="">Número telefono fijo</label>
-        <label for="" class="ob">*</label>
-        <input id="telefo" type="number" value="1234567" required name="telefo"/>
-        <label for="">Número telefono</label>
-        <label for="" class="ob">*</label>
-        <input type="number" id="tele" value="1234567891" required name="tele"/>
+        <label>Número telefono fijo</label>
+        <label class="ob">*</label>
+        <input
+          id="telefo"
+          type="number"
+          value="1234567"
+          required
+          name="telefo"
+        />
+        <label>Número telefono</label>
+        <label class="ob">*</label>
+        <input
+          type="number"
+          id="tele"
+          value="1234567891"
+          required
+          name="tele"
+        />
         <hr />
         <h2>Dirección</h2>
-        <label for="">Calle :    </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="calle"/>
-        <label for="">Número INT : </label>
-        <label for="" class="ob">*</label>
-        <input type="number" value="69" required name="numI"/>
-        <label for="">Número EXT : </label>
-        <label for="" class="ob">*</label>
-        <input type="number" value="69" required name="numE"/>
+        <label>Calle :    </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="calle" />
+        <label>Número INT : </label>
+        <label class="ob">*</label>
+        <input type="number" value="69" required name="numI" />
+        <label>Número EXT : </label>
+        <label class="ob">*</label>
+        <input type="number" value="69" required name="numE" />
         <br /><br />
-        <label for="">Colonia : </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="col"/>
-        <label for="">Localidad :     </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="loc"/>
-        <label for=""></label>
-        <label for="">Municipio :    </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="mun"/>
+        <label>Colonia : </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="col" />
+        <label>Localidad :     </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="loc" />
+        <label></label>
+        <label>Municipio :    </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="mun" />
         <br />
         <br />
-        <label for="">Estado :  </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="est"/>
-        <label for="">Pais :             </label>
-        <label for="" class="ob">*</label>
-        <input type="text" value="añañin" required name="pais"/>
+        <label>Estado :  </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="est" />
+        <label>Pais :             </label>
+        <label class="ob">*</label>
+        <input type="text" value="añañin" required name="pais" />
         <br />
         <hr />
-        <label for="">Correo :                 </label>
-        <label for="" class="ob">*</label>
-        <input id="cor" type="email" value="knives@knives.com" required name="email"/>
+        <label>Correo :                 </label>
+        <label class="ob">*</label>
+        <input
+          id="cor"
+          type="email"
+          value="knives@knives.com"
+          required
+          name="email"
+        />
         <br /><br />
-        <label for="">Numero de tarjeta : </label>
-        <label for="" class="ob">*</label>
-        <input id="tarje" type="number" value="1234567891234567" required name="tarje"/>
-        <label for="">Contraseña : </label>
-        <label for="" class="ob">*</label>
+        <label>Contraseña : </label>
+        <label class="ob">*</label>
         <input
           id="contraseña"
           minlength="8"
@@ -90,8 +105,17 @@
           required
           name="password"
         />
+        <label>Numero de tarjeta : </label>
+        <label class="ob">*</label>
+        <input
+          id="tarje"
+          type="number"
+          value="1234567891234567"
+          required
+          name="tarje"
+        />
         <hr />
-        <input type="submit" value="Registrar"/>
+        <input type="submit" value="Registrar" />
       </form>
     </div>
     <script src="js/script.js"></script>

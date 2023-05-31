@@ -1,5 +1,5 @@
 <?php
-	$conex = new mysqli("localhost", "Knives77", "faye", "z");
+	$conex = new mysqli("localhost", "root", "", "z");
 	$verificar = "SELECT * FROM `xd` WHERE numero = ".$_REQUEST['numero']."";
 	$total = mysqli_num_rows(mysqli_query($conex, $verificar));
 	 if (!$conex->connect_error) {
