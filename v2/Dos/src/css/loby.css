@@ -9,3 +9,20 @@ body {
 pre {
 	color: white;
 }
+
+
+.img {
+	width: 50%;
+	height: 450px;
+	margin-bottom: 10%;
+	margin-left: 25%;
+	border: 5px solid white;
+
+}
+
+img {
+	width: 97%;
+	margin-left: 10px;
+	height: 95%;
+	margin-top: 10px;
+}
